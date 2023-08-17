@@ -8,7 +8,7 @@ const Footer = () => {
           &copy; 2023 Store, Inc . All rights reserved.{" "}
           <a
             className=" text-md font-medium "
-            href=" https://wa.me/01120920078"
+            href=" https://wa.me/+201120920078"
             target="_blank"
           >
             contact us on whatsapp
