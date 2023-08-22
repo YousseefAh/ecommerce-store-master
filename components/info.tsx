@@ -46,15 +46,20 @@ const Info: React.FC<InfoProps> = ({ data }) => {
           Add To Cart
           <ShoppingCart size={20} />
         </Button>
-        <a
-        className="flex items-center rounded-full bg-black text-white px-5 py-3 gap-x-3 "
+        
+        <a  className="flex items-center gap-x-2 bg-black text-white  py-3  px-5 rounded-full" href=" https://wa.me/+201279288814" target="_blank">
+          what's app
+          <MessageCircle size={20} color="#0bf933" />
+        </a>
+
+      </div>
+      {/* <a
+        className=" mt-10 flex items-center gap-x-3 flex items-center  bg-black text-white rounded-full  py-3  px-5 max-w-xs"
         href=" https://wa.me/+201279288814"
         target="_blank"
       >
         <MessageCircle size={25} color="#0bf933" /> what's app  
-      </a>
-
-      </div>
+      </a>  */}
     </div>
   );
 }
