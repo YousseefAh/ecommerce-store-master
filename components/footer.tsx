@@ -11,7 +11,7 @@ const Footer = () => {
             href=" https://wa.me/+201120920078"
             target="_blank"
           >
-            contact us on whatsapp
+           to create a store contact us on whatsapp
           </a>
         </p>
       </div>
