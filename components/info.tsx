@@ -50,13 +50,13 @@ const Info: React.FC<InfoProps> = ({ data }) => {
        
 
       </div>
-      <a
+      {/* <a
         className=" mt-10 flex items-center gap-x-3 flex items-center  bg-black text-white rounded-full  py-3  px-5 max-w-xs"
         href=" https://wa.me/+201279288814"
         target="_blank"
       >
         <MessageCircle size={25} color="#0bf933" /> what's app  
-      </a> 
+      </a>  */}
     </div>
   );
 }
