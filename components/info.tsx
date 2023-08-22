@@ -1,6 +1,8 @@
 "use client";
 
 import { ShoppingCart } from "lucide-react";
+import {  MessageCircle } from "lucide-react";
+
 
 import Currency  from "@/components/ui/currency";
 import Button from "@/components/ui/button";
@@ -44,6 +46,14 @@ const Info: React.FC<InfoProps> = ({ data }) => {
           Add To Cart
           <ShoppingCart size={20} />
         </Button>
+        <a
+        className="flex items-center rounded-full bg-black text-white px-5 py-3 gap-x-3 "
+        href=" https://wa.me/+201279288814"
+        target="_blank"
+      >
+        <MessageCircle size={25} color="#0bf933" /> what's app  
+      </a>
+
       </div>
     </div>
   );
